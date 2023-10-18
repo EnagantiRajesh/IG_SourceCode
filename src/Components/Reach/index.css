@@ -1,0 +1,90 @@
+.reach-container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(270deg, rgb(94 33 120) 13.68%,  rgb(15 16 27) 104.25%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 100px; 
+}
+.contact-container{
+    width: 50%;
+}
+.reach-card-container{
+   display: flex;
+   justify-content: space-around;
+}
+.location-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.follow-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.input-text{
+    width: 30%; /* Set the width to 100% to expand within its container */
+    padding: 10px; /* Add padding for spacing inside the input */
+    font-size: 16px; /* Set the font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Round the corners */
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    margin: 1%;
+}
+.input-text:focus {
+    border: 1px solid #3498db; /* Change the border color on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Add a different box shadow on focus */
+}
+.email-container{
+    display: flex;
+    
+}
+.textarea{
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Round the corners */
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+    margin: 1%;
+}
+@media (max-width: 767px) {
+    .reach-container {
+        padding: 20px; /* Increase padding for better spacing on mobile */
+        overflow: auto;
+    }
+
+    .contact-container {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .reach-card-container {
+        flex-direction: column; /* Stack cards vertically on mobile */
+    }
+
+    .location-container,
+    .follow-container {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .form-container {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .input-text {
+        width: 100%; /* Full width on mobile */
+        margin: 2% 0; /* Adjust margin for better spacing on mobile */
+    }
+}
+ 
+.block__subtitle {
+    display: block;
+    font: normal 400 1.4rem/1.2 "Lato", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding-left: 2px;
+    color: #636363;
+  }

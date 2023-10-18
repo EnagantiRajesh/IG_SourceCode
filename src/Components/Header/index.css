@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font: "FogtwoNo5", serif;
+}
+.navbar{
+    padding: 0 !important;
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1280px !important;
+}
+}
+.logo{
+    height: auto;
+    width: 75px;
+}
+.head{
+    text-decoration: none ;
+    font: normal 400 2.3rem/1 "FogtwoNo5", serif;
+    color: #2d2e74 !important;
+    font-size: 25px;
+}
+.menu-button{
+    cursor: pointer;
+}
+.menu-button:hover{
+    background-color: white; /* Same as default */
+    color: #fff; /* Same as default */
+}
+.header-container{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-end;
+    align-items: stretch;
+    padding: 0px;  
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    
+}.nav-link{
+    font: normal 400 2.3rem/1 "FogtwoNo5", serif;
+    color: #2d2e74 !important;
+  }
+  .navbar-nav .nav-link {
+      padding: 0  15px !important;
+  }
+.mobile{
+    display: flex !important;
+}
+.mobile-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.icon{
+    font-size: 35px;
+    color: black;
+}
+.head-container{
+    position: fixed !important; 
+    top: 0; /* Stick to the top of the viewport */
+    width: 100%; 
+    z-index: 1000;    
+}
+.tabs-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 12, 67);
+    padding: 15px 0;    
+}
+.click-button{
+    background-color: transparent;
+    border: none;
+    text-decoration: none ;
+    font: normal 400 2.2rem/1 "FogtwoNo5", serif;
+    color: #fff;
+    }
+.para-button{
+    border: none; /* Remove the border */
+    background: none; /* Remove the background color */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    font-size: inherit; /* Use the same font size as the parent */
+    color: inherit; /* Use the same text color as the parent */
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+    text-align: inherit; /* Use the same text alignment as the parent */
+    text-decoration: none;
+}
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1275px !important;
+}
+}
+@media (max-width:768px){
+    .head{
+        font-size: 45px;
+        margin-bottom: 2rem;
+    }
+    .mobile{
+        padding: 10px;
+    }
+    .navbar-toggler{
+        padding: 0 20px !important;
+    font-size: 35px !important;
+    border-radius: 50% !important;
+    border-color:#2d2e74 !important;
+    }
+    .head-container {
+        /* position: fixed !important; Fixed positioning */
+        top: 0; /* Stick to the top of the viewport */
+        width: 100%;
+        z-index: 1000;
+    }
+}

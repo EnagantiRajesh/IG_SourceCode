@@ -1,0 +1,117 @@
+.test-container{
+    color: white;
+    width: 100%;
+    margin-top: 100px; 
+    
+}
+.quo-icon{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+.slider-container {
+    background-image: linear-gradient(270deg, rgb(94 33 120) 13.68%,  rgb(15 16 27) 104.25%);
+    padding: 40px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.client-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.slick-track{
+    color: white;
+}
+.card-slider{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 60vh;
+    margin: 2%;
+    
+}
+
+.test-back-cont{
+    width: 100%;
+    background-image: linear-gradient(rgb(50, 41, 41),rgb(8, 8, 54));
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150px;
+}
+.test-title{
+    color: white;
+}
+.test-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgb(50, 41, 41),rgb(8, 8, 54));
+}
+.test-para{
+    width: 50%;
+}
+.all-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.test-card{
+    height: 40vh;
+    width: 23%;
+    padding: 10px;
+    background-image: linear-gradient(rgb(50, 41, 41),rgb(8, 8, 54));
+}
+.test-card-image{
+    height: 27vh;
+    width: 100%;
+    background-color: azure;
+}
+
+@media (max-width: 767px) {
+    .test-back-cont {
+        height: auto; /* Allow background to adjust height as needed */
+    }
+
+    .test-title {
+        font-size: 36px; /* Adjust title font size for mobile */
+    }
+
+    .test-card-container {
+        height: auto; /* Allow container to adjust height as needed */
+    }
+
+    .test-para {
+        width: 100%; /* Full-width paragraph on mobile */
+    }
+
+    .all-cards {
+        flex-direction: column; /* Stack cards vertically for smaller screens */
+    }
+
+    .test-card {
+        width: 100%; /* Full-width cards on mobile */
+    }
+
+    .test-card-image {
+        height: 27vh; /* Adjust image height for mobile */
+    }
+    
+    .one-card{
+        width: 90%;
+        margin: 2%;
+        
+    }
+    .slider-container{
+        height: auto;
+
+    }
+}
